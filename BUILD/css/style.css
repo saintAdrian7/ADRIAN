@@ -66,6 +66,11 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
+  background-color: rgba(73, 70, 73, 0.483);
+  background-image: radial-gradient(navy lightblue);
+  background-size: cover;
+  background-position: fixed;
+  background-repeat:repeat
 }
 
 /*
@@ -334,8 +339,8 @@ h4,
 h5,
 h6,
 hr,
-figure,
-p,
+
+
 pre {
   margin: 0;
 }
@@ -438,6 +443,9 @@ img,
 video {
   max-width: 100%;
   height: auto;
+  margin-left: 7rem;
+  border-radius: 50%;
+  border: dashed navy 2px;
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
@@ -554,5 +562,108 @@ video {
   --tw-contain-style:  ;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
 
+.max-h-10 {
+  max-height: 2.5rem;
+}
+
+.max-w-none {
+  max-width: none;
+}
+
+.text-nowrap {
+  text-wrap: nowrap;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-bl-full {
+  border-bottom-left-radius: 9999px;
+}
+
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.from-black {
+  --tw-gradient-from: #000 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-gray-950 {
+  --tw-gradient-from: #030712 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(3 7 18 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.py-px {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.pt-28 {
+  padding-top: 7rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.greetings{
+  border: solid goldenrod 2px;
+  border-radius: 50px;
+  background-color: black;
+  color: crimson;
+  font-weight: bolder;
+  padding: 2rem;
+  margin-top: 70px;
+  margin-left: 900px;
+  font-size: 2rem;
+}
+
+img{
+  max-height: 100vh;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-stone-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(214 211 209 / var(--tw-bg-opacity));
+  }
+
+  .dark\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+}
