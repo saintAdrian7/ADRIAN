@@ -332,7 +332,6 @@ Removes the default spacing and border for appropriate elements.
 blockquote,
 dl,
 dd,
-h2,
 h3,
 h4,
 h5,
@@ -356,6 +355,20 @@ h1{
   line-height: 3rem;
   box-shadow: 0 0 10px;
 
+}
+h2{
+  color: navy;
+   border: dotted 2px rebeccapurple;
+   text-align: start;
+   text-decoration: dotted;
+   text-transform: uppercase;
+   padding: 0rem;
+   font-size: 2rem;
+   line-height: 3rem;
+   box-shadow:10px  0 0px;
+   margin-top: 5rem;
+   margin-left: 0;
+   box-sizing: content-box;
 }
 
 fieldset {
@@ -672,6 +685,17 @@ video {
      line-height: 2rem;
  
  }
+
+ 
+.about{
+  margin-top: 20rem;
+  color: black;
+  font-size: 2rem;
+  text-align: centre;
+  padding: 2rem;
+  line-height: 2rem;
+  
+}
 img{
   max-height: 100vh;
 }
