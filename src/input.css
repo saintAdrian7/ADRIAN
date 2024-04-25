@@ -24,3 +24,23 @@ img{
 .about{
     margin-top: 10rem;
 }
+
+
+/* styles.css */
+
+/* Add your existing CSS styles here */
+
+/* Media queries for responsiveness */
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Adjustments for smaller screens */
+    .greetings {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  }
+  
+ 
+ 
+  
