@@ -70,7 +70,7 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
-background-image: url(/BUILD/IMG/radial5.jpg);
+background-image: url(radial5.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
@@ -346,7 +346,7 @@ pre {
 }
 h1{
   color: yellowgreen;
- background-image:url(/BUILD/IMG/radial3.jpg) ;
+ background-image:url(radial3.jpg) ;
  background-repeat: no-repeat;
  background-size: cover;
   text-align: center;
@@ -432,7 +432,7 @@ a{
   color: yellowgreen;
 }
 footer{
-  background-image: url(/BUILD/IMG/radial3.jpg);
+  background-image: url(radial3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -952,11 +952,11 @@ and (-webkit-min-device-pixel-ratio: 2.5) {
 
 .image-and-text-container {
   margin: 0; /* Remove all margin */
-}9 */
-}
+}*/
+
 
 /* iPhone X */
-@media only screen 
+@media only screen
 and (max-device-width: 375px) 
 and (max-device-height: 812px) 
 and (-webkit-min-device-pixel-ratio: 3) {
