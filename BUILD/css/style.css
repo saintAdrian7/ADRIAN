@@ -73,6 +73,7 @@ body {
 background-image: url(/BUILD/IMG/radial5.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+background-attachment: fixed;
  
 }
 
@@ -431,8 +432,9 @@ a{
   color: yellowgreen;
 }
 footer{
-  background-color: black;
-  position: sticky;
+  background-image: url(/BUILD/IMG/radial3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /*
 Reset default styling for dialogs.
@@ -730,7 +732,7 @@ h6{
      border-radius: 200px;
      background-color: rgb(110, 110, 231);
      background-image: radial-gradient(navy lightblue);
-     color: greenyellow;
+     color: black;
      font-weight: bolder;
      padding-top: 2rem;
      margin-top: 90px;
@@ -768,7 +770,9 @@ img{
 .social{
  display: flex;
  flex-direction: row;
-  
+ justify-content: center;
+ justify-content: space-evenly;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -813,5 +817,240 @@ img{
 }
 .animate-pulse {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+
+  /* Additional adjustments for specific elements */
+  h1 {
+    font-size: 2rem;
+    padding: 1rem;
+    
+  }
+
+  nav ol {
+    padding: 0;
+    list-style: none;
+    display: block;
+  }
+
+  footer {
+    padding: 0.9rem;
+    text-align: start;
+  }
+
+  /* Adjusting images */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  /* Ensuring text wraps properly */
+  p, li, span, .abaout, .greetings, .journey{
+    word-wrap: break-word; /* Allows long words to break and wrap onto the next line */
+  }
+/* style.css */
+
+
+
+/* Media queries */
+/* Samsung S20 Ultra */
+@media only screen 
+and (max-device-width: 1440px) 
+and (max-device-height: 3200px) 
+and (-webkit-min-device-pixel-ratio: 4) {
+  /* Adjust styles for Samsung S20 Ultra */
+  
+/* Default styles */
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.font-serif {
+  font-family: serif;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-black {
+  color: #000;
+}
+
+.dark:text-white {
+  color: #fff;
+}
+
+
+.image-and-text-container {
+  margin: 0; /* Remove all margin */
+}
+}
+
+/* Samsung S10 */
+@media only screen 
+and (max-device-width: 1440px) 
+and (max-device-height: 3040px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+  /* Adjust styles for Samsung S10 */
+  
+/* Default styles */
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.font-serif {
+  font-family: serif;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-black {
+  color: #000;
+}
+
+.dark:text-white {
+  color: #fff;
+}
+
+
+.image-and-text-container {
+  margin: 0; /* Remove all margin */
+}
+}
+
+/* Samsung S9 */
+@media only screen 
+and (max-device-width: 1440px) 
+and (max-device-height: 2960px) 
+and (-webkit-min-device-pixel-ratio: 2.5) {
+  /* Adjust styles for Samsung S
+/* Default styles */
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.font-serif {
+  font-family: serif;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-black {
+  color: #000;
+}
+
+.dark:text-white {
+  color: #fff;
+}
+
+
+.image-and-text-container {
+  margin: 0; /* Remove all margin */
+}9 */
+}
+
+/* iPhone X */
+@media only screen 
+and (max-device-width: 375px) 
+and (max-device-height: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+  /* Adjust styles for iPhone X */
+}
+/* Default styles */
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.font-serif {
+  font-family: serif;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-black {
+  color: #000;
+}
+
+.dark:text-white {
+  color: #fff;
+}
+
+
+.image-and-text-container {
+  margin: 0; /* Remove all margin */
+}
+
+/* iPhone 8 Plus */
+@media only screen 
+and (max-device-width: 414px) 
+and (max-device-height: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+  /* Adjust styles for iPhone 8 Plus */
+}
+/* Default styles */
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.font-serif {
+  font-family: serif;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-black {
+  color: #000;
+}
+
+.dark:text-white {
+  color: #fff;
+}
+
+
+.image-and-text-container {
+  margin: 0; /* Remove all margin */
+}
+
+/* iPhone 8 */
+@media only screen 
+and (max-device-width: 375px) 
+and (max-device-height: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+  /* Adjust styles for iPhone 8 */
+}
+/* Default styles */
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.font-serif {
+  font-family: serif;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-black {
+  color: #000;
+}
+
+.dark:text-white {
+  color: #fff;
+}
+
+
+.image-and-text-container {
+  margin: 0; /* Remove all margin */
 }
 
