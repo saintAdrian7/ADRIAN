@@ -70,7 +70,7 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
-background-image: url(/BUILD/IMG/radial5.jpg);
+background-image: url(/DOCS/IMG/radial5.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
@@ -346,7 +346,7 @@ pre {
 }
 h1{
   color: yellowgreen;
- background-image:url(/BUILD/IMG/radial3.jpg) ;
+ background-image:url(/DOCS/IMG/radial3.jpg) ;
  background-repeat: no-repeat;
  background-size: cover;
   text-align: center;
@@ -432,7 +432,7 @@ a{
   color: yellowgreen;
 }
 footer{
-  background-image: url(/BUILD/IMG/radial3.jpg);
+  background-image: url(/DOCS/IMG/radial3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
