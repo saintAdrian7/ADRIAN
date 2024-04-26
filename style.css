@@ -70,11 +70,23 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
-background-image: url(radial5.jpg);
+  background: linear-gradient(135deg, #85D8E2, #2B65E8);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
+background-position: center;
+
  
+}
+
+
+
+
+.journey{
+ 
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /*
@@ -113,6 +125,9 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: inherit;
+  text-align: center;
+  font-size: 2rem;
+ 
 }
 
 /*
@@ -378,14 +393,22 @@ h3{
   font-size: 2rem;
   padding: 5px;
   margin-top: 10px;
-  animation-name: spin;
+  animation-name: ping;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
   animation-delay: 2s;
   animation-iteration-count: infinite;
   margin-bottom: 5rem;
 }
-
+@keyframes ping {
+  75%, 100% {
+      transform: scale(2);
+      opacity: 0;
+  }
+}
+.animate-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
 
 
 fieldset {
@@ -429,7 +452,8 @@ a:active{
 a{
   font-size: 1rem;
   text-decoration: underline;
-  color: yellowgreen;
+  color: orangered;
+  
 }
 footer{
   background-image: url(radial3.jpg);
@@ -503,7 +527,8 @@ audio,
 iframe,
 embed,
 object {
-  display: block;
+  display: inline;
+  
   /* 1 */
   
   /* 2 */
@@ -721,10 +746,13 @@ h6{
   animation-iteration-count: infinite;
   color: green;
   font-size: 2rem;
-  margin-bottom: 20px;
+ margin: 0;
   
   
 }
+
+  
+
 
 
 .greetings{
@@ -750,6 +778,8 @@ h6{
 
  
  }
+
+
 
 
  
@@ -848,6 +878,7 @@ img{
   /* Ensuring text wraps properly */
   p, li, span, .abaout, .greetings, .journey{
     word-wrap: break-word; /* Allows long words to break and wrap onto the next line */
+    text-align: center;
   }
 /* style.css */
 
