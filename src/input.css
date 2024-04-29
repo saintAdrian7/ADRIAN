@@ -3,36 +3,33 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.greetings{
-    border: solid goldenrod 2px;
-       border-radius: 50px;
-       background-color: lightblue;
-       color: coral;
-       font-weight: bolder;
-       padding: 2rem;
-       margin-top: 70px;
-       margin-left: 300px;
-       font-size: 2rem;
-   
-   }
-img{
-    max-height: 100vh;
-   
-   
 
-}
+
+*{
+    scroll-behavior: smooth;
+  }
+
+  
+  body {
+  margin: 0;
+  line-height: inherit;
+  background: linear-gradient(135deg, #85D8E2, #2B65E8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  
+   
+  }
+  
+
+
+
 .about{
     margin-top: 10rem;
 }
 
 
-/* styles.css */
-
-/* Add your existing CSS styles here */
-
-/* Media queries for responsiveness */
-
-/* Small devices (phones, 576px and up) */
 @media (min-width: 576px) {
     /* Adjustments for smaller screens */
     .greetings {
@@ -41,6 +38,195 @@ img{
     }
   }
   
+h1{
+    color: yellowgreen;
+   background-image:url(radial3.jpg) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+    text-align: center;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    padding: 2rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    box-shadow: 0 0 10px;
+  
+  }
+  h2{
+    color: navy;
+     border: dotted 2px rebeccapurple;
+     text-align: start;
+     text-decoration: dotted;
+     text-transform: uppercase;
+     padding: 0rem;
+     font-size: 2rem;
+     line-height: 3rem;
+     box-shadow:10px  0 0px;
+     margin-top: 5rem;
+     margin-left: 0;
+     box-sizing: content-box;
+  }
+  h3{
+    color: darkgreen;
+    text-align: center;
+    font-size: 2rem;
+    padding: 5px;
+    margin-top: 10px;
+    animation-name: ping;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    margin-bottom: 5rem;
+  }
+
+
+  
  
  
+  
+
+h6{
+    animation: pulse;
+    animation-duration: 5s;
+    animation-timing-function: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    color: green;
+    font-size: 2rem;
+   margin: 0;
+    
+  }
+
+  img{
+    max-height: 100vh;
+  }
+  
+  
+    
+  
+  
+  
+  .greetings{
+   
+       border-radius: 200px;
+       background-color: rgb(110, 110, 231);
+       background-image: radial-gradient(navy lightblue);
+       color: black;
+       font-weight: bolder;
+       padding-top: 2rem;
+       margin-top: 90px;
+       margin-left: 600px;
+       font-size: 2rem;
+       margin-right: 100px;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       line-height: 2rem;
+       animation: bounce;
+       animation-duration: 1s;
+       animation-iteration-count: infinite;
+       animation-delay: 1s;
+  
+   
+   }
+  
+  .about{
+    margin-top: 20rem;
+    color: black;
+    font-size: 2rem;
+    text-align: centre;
+    padding: 2rem;
+    line-height: 2rem;
+    
+  }
+ 
+  
+  .social{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   justify-content: space-evenly;
+  
+  }
+
+  
+
+  
+ol{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+  
+  }
+  .myList{
+    color: rgb(21, 62, 106);
+    margin-left: 10px;
+  }
+  a:hover{
+    color: black;
+    
+  }
+  a:active{
+    color: orangered;
+  }
+  a{
+    font-size: 1rem;
+    text-decoration: underline;
+    color: orangered;
+    
+  }
+  footer{
+    background-image: url(radial3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @keyframes ping {
+    75%, 100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+  }
+  .animate-ping {
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+  
+
+
+
+
+
+  @keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+  }
+  .animate-spin {
+    animation: spin 1s linear ease-in-out;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+  }
+  .animate-bounce {
+    animation: bounce 1s infinite;
+  }
+  @keyframes pulse {
+    50% {
+        opacity: .5;
+    }
+  }
+  .animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
   
